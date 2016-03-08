@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('VibroNavio2top_rev_A.STEP',
+    '2016-03-08T11:50:17',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2016',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #7 ) ;
+#2 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#3 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #4 ) ) ;
+#4 = PRODUCT ( 'VibroNavio2top_rev_A', 'VibroNavio2top_rev_A', '', ( #8 ) ) ;
+#5 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #9, 'design' ) ;
+#6 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #4, .NOT_KNOWN. ) ;
+#7 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #6, #5 ) ;
+#8 = PRODUCT_CONTEXT ( 'NONE', #2, 'mechanical' ) ;
+#9 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #9 ) ;
+#11 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #2 ) ;
+ENDSEC;
+END-ISO-10303-21;
